@@ -1,0 +1,32 @@
+.name{
+    color: white;
+}
+.name1{
+    color: #889EDA;
+}
+.iconPixel{
+    width: 100px;
+}
+.sub{
+    color: white;
+    text-decoration: underline;
+}
+.icon1{
+    color: #C62F00 ;
+    font-size: 50px;
+}
+.icon2{
+    color: #084FBA;
+    font-size: 50px;
+}
+.icon3{
+    background-color: #F6DE05;
+    font-size: 40px;
+}
+.icon4{
+    color: #AD0C80;
+    font-size: 50px;
+}
+.logo{
+    width: 150px;
+}

@@ -1,0 +1,12 @@
+.nav{
+    background-color: #889EDA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    gap: 25px;
+    font-weight: bold;
+}
+.nav p{
+   margin: 20px 0px;
+}
