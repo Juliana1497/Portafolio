@@ -1,0 +1,42 @@
+.infoCurri{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 70px 10px 0px 10px;
+    color: white;
+}
+.photo{
+    width: 100px;
+    margin-bottom: 10px;
+}
+.description{
+    font-size: 12px;
+    margin: 10px 0px;
+}
+.containerTitles{
+    background-color: #889EDA;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 15px;
+    font-size: 15px;
+}
+.infoHV{
+    color: white;
+}
+.donut{
+    width: 25%!important;
+    height: 25%!important;
+    margin-right: 15px;
+}
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+}

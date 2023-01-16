@@ -15,9 +15,10 @@
 }
 .nav p{
    margin: 20px 0px;
+   color: black;
 }
 .contact{
-    color: #889EDA;
+    color: #889EDA!important;
     font-weight: bold;
     rotate: 270deg;
     display: flex;
@@ -26,4 +27,8 @@
     align-content: flex-start;
     background-color: transparent;
     margin: -50% 0% 0% -90%;
+}
+.contactP{
+    color: #889EDA;
+    border: black;
 }

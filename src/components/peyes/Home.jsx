@@ -4,7 +4,9 @@ import Pixel from '../../img/pixel.png'
 import {FaCss3Alt, FaHtml5, FaReact} from 'react-icons/fa'
 import {IoLogoJavascript} from 'react-icons/io'
 import Logo2 from '../../img/logo2.png'
-import Carrousel from '../../Carrousel'
+import Carrousel from '../../CarrouselWeb'
+import CarrouselGame from '../../CarrouselGame'
+import { Progress } from 'reactstrap';
 
 
 const Home = () => {
@@ -19,21 +21,50 @@ const Home = () => {
         <div id='knowledge'>
             <p className='sub'>KNOWLEDGE</p>
             <p className='name'>HTML</p>
-            <FaHtml5 className='icon1'/>
+            <div className="languaje">
+              <FaHtml5 className='icon1'/>
+              <Progress
+              color="danger"
+              value={70}
+              className="progress"
+              />
+            </div>
             <p className='name'>CSS</p>
-            <FaCss3Alt className='icon2'/>
+            <div className='languaje'>
+              <FaCss3Alt className='icon2'/>
+              <Progress
+              color="primary"
+              value={70}
+              className="progress"
+              />
+            </div>
             <p className='name'>JavaScript</p>
-            <IoLogoJavascript className='icon3'/>
+              <div className="languaje">
+              <IoLogoJavascript className='icon3'/>
+              <Progress
+              color="warning"
+              value={60}
+              className="progress"
+              />
+            </div>
             <p className='name'>React</p>
-            <FaReact className='icon4'/>
+            <div className="languaje">
+              <FaReact className='icon4'/>
+              <Progress
+              color="purple"
+              value={70}
+              className="progress"
+              />
+            </div>
         </div>
         <div id='projects'>
           <p className='sub'>PROJECTS</p>
           <p className='name'>WebPages</p>
           <Carrousel/>
           <p className='name'>Games</p>
+          <CarrouselGame/>
         </div>
-        <div>
+        <div className='containerLogo'>
           <img src={Logo2} className='logo' alt="" />
         </div>
     </div>

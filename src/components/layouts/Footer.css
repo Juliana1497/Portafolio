@@ -5,10 +5,19 @@
     text-align: center;
     width: 100%;
     border-radius: 50% 50% 0% 0%;
+    color: black;
 }
 .icon5{
     font-size: 30px;
+    margin-top: 10px;
+    color: black;
 }
 .icon6{
     font-size: 50px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: all 300ms ease;
+}
+.icon6:hover{
+    transform: scale(1.05);
 }
