@@ -1,6 +1,10 @@
 .containerFooter{
     height: 160px;
     background-color: #889EDA;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    border-radius: 50% 50% 0% 0%;
 }
 .icon5{
     font-size: 30px;

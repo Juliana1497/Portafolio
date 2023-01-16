@@ -1,8 +1,21 @@
+.containerInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 70px 0px 10px 0px;
+}
 .name{
     color: white;
+    margin: 10px 5px;
+    font-size: 12px;
 }
 .name1{
     color: #889EDA;
+    margin: 10px 0px;
+    font-size: 15px;
+    font-weight: bold;
 }
 .iconPixel{
     width: 100px;

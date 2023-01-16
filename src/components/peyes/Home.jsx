@@ -1,21 +1,22 @@
 import React from 'react'
-import './Body.css'
-import Pixel from '../img/pixel.png'
+import './Home.css'
+import Pixel from '../../img/pixel.png'
 import {FaCss3Alt, FaHtml5, FaReact} from 'react-icons/fa'
 import {IoLogoJavascript} from 'react-icons/io'
-import Logo2 from '../img/logo2.png'
+import Logo2 from '../../img/logo2.png'
+import Carrousel from '../../Carrousel'
 
 
-const Body = () => {
+const Home = () => {
   return (
-    <div>
-        <div>
+    <div className='containerBody'>
+        <div className='containerInfo'>
             <img src={Pixel} className='iconPixel' alt="" />
             <p className='name1'>Ψeimy Dev</p>
             <p className='name'>Junior Full-Stack Web Developer.</p>
             <p className='name'>I have been learning for a short time, but every day with more desire to learn and learning something new every day.</p>
         </div>
-        <div>
+        <div id='knowledge'>
             <p className='sub'>KNOWLEDGE</p>
             <p className='name'>HTML</p>
             <FaHtml5 className='icon1'/>
@@ -26,9 +27,10 @@ const Body = () => {
             <p className='name'>React</p>
             <FaReact className='icon4'/>
         </div>
-        <div>
+        <div id='projects'>
           <p className='sub'>PROJECTS</p>
           <p className='name'>WebPages</p>
+          <Carrousel/>
           <p className='name'>Games</p>
         </div>
         <div>
@@ -39,4 +41,4 @@ const Body = () => {
   )
 }
 
-export default Body
+export default Home
