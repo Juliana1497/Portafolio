@@ -1,0 +1,47 @@
+.Overlay{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.877);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerModal{
+    width: 300px;
+    min-height: 100px;
+    background-color: black;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    padding: 20px;
+}
+
+.headerModal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #889EDA;
+    color: white;
+}
+.headerModal h3{
+    font-size: 15px;
+    color: white;
+}
+label{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+input{
+    font-size: 12px;
+}
+button{
+    background-color: #889EDA;
+    font-weight: bold;
+    cursor: pointer;
+}

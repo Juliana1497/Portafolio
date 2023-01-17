@@ -58,7 +58,7 @@ const Curriculum = () => {
         <div className='containerTitles'>
           <p>SKILLS</p>
         </div>
-        <div className='infoHV'>
+        <div className='infoSkill'>
           <div className='skill'>
             <Doughnut data ={data}
                className="donut"/>

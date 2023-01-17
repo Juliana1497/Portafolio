@@ -28,6 +28,14 @@
 }
 .infoHV{
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.infoSkill{
+    color: white;
 }
 .donut{
     width: 25%!important;

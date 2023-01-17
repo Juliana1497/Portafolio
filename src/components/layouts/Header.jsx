@@ -1,9 +1,12 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Header.css'
 import { Link } from 'react-router-dom'
+import Modal from '../peyes/Modal';
 
 const Header = () => {
+  const [stateModal,changeState] = useState(false);
   return (
+    <div>
     <div className='containerHeader'>
       <div className='nav'>
           <Link to='/'>
@@ -16,8 +19,10 @@ const Header = () => {
           </Link>
       </div>
       <div className='contact'>
-        <p className='contactP'>-CONTAC ME-</p>
+        <p className='contactP' onClick={() => changeState(!stateModal)}>-CONTAC ME-</p>
       </div>
+      <Modal state={stateModal} changeState={changeState}/>
+  </div>
   </div>
   )
 }
