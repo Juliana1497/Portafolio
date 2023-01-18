@@ -23,7 +23,7 @@
     align-items: center;
     text-align: center;
     font-weight: bold;
-    margin: 10px 15px;
+    margin: 10px 20px;
     font-size: 15px;
 }
 .infoHV{
@@ -47,4 +47,38 @@
     justify-content: center;
     align-items: center;
     margin: 15px 0px;
+}
+@media screen and (min-width:768px)and (max-width:1023px){
+    .infoCurri{
+        margin: 90px 25px 0px 25px;
+    }
+    .photo{
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .description{
+        font-size: 20px;
+        margin: 20px 0px;
+    }
+    .containerTitles{
+        margin: 20px 45px;
+        font-size: 30px;
+    }
+}
+@media screen and (min-width:1024px){
+    .infoCurri{
+        margin: 120px 40px 0px 40px;
+    }
+    .photo{
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .description{
+        font-size: 30px;
+        margin: 30px 0px;
+    }
+    .containerTitles{
+        margin: 30px 60px;
+        font-size: 40px;
+    }
 }

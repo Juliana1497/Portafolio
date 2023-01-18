@@ -11,14 +11,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const items = [
   {
     src: require('./img/game1.png'),
-    altText: 'Slide 1',
-    caption: 'Slide 1',
     link:'https://wheel-of-doom-git-master-yeimmibuenaventura.vercel.app/'
   },
   {
     src: require('./img/game2.png'),
-    altText: 'Slide 2',
-    caption: 'Slide 2',
     link: 'https://juliana1497.github.io/tetris2/'
   }
 ];
@@ -69,7 +65,7 @@ class CarrouselGame extends Component {
           onExited={this.onExited}
           key={item.src}
         >
-          <a href={item.link}><img src={item.src} alt={item.altText} width="320px"/></a>
+          <a target="_blank" href={item.link}><img src={item.src} alt={item.altText} className="carrousel"/></a>
           <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
         </CarouselItem>
       );

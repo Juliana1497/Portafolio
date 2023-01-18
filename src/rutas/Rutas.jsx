@@ -8,6 +8,7 @@ const Rute = () => {
     <Routes>
         <Route path='/' element={<Navigate to ="/home"/>} />
         <Route path='/home' element={<Home/>} />
+        {/* <Route path='#knowledge' element={<Home/>}/> */}
         <Route path='/curriculum' element={<Curriculum/>} />
     </Routes>
   )

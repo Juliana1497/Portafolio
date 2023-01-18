@@ -11,20 +11,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const items = [
   {
     src: require('./img/web1.png'),
-    altText: 'Slide 1',
-    caption: 'Slide 1',
     link:'https://cire-3.vercel.app/inicio'
   },
   {
     src: require('./img/web2.png'),
-    altText: 'Slide 2',
-    caption: 'Slide 2',
     link: 'https://juliana1497.github.io/Pagina-Tributo/'
   },
   {
     src: require('./img/web3.png'),
-    altText: 'Slide 3',
-    caption: 'Slide 3',
     link: 'https://semillas-eight.vercel.app/#'
   }
 ];
@@ -75,7 +69,7 @@ class Carrousel extends Component {
           onExited={this.onExited}
           key={item.src}
         >
-          <a href={item.link}><img src={item.src} alt={item.altText} width="320px"/></a>
+          <a target="_blank" href={item.link}><img src={item.src} alt={item.altText} className="carrousel"/></a>
           <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
         </CarouselItem>
       );
