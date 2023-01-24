@@ -5,5 +5,46 @@ body {
     background-color: black!important;
 }
 div[id] {
-    scroll-padding-top: -30px;
+    scroll-margin-top: 300px;
+}
+h1{
+	font-size: 100px;
+}
+.App{
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	height: 100vh;
+	z-index: -1;
+}
+
+.Snowflake {
+	display: inline-block;
+	width: 0.5%;
+	color: rgb(13, 177, 13);
+	opacity: 0;
+	font-size: 120px;
+	margin: 0;
+	padding: 0;
+	animation: fall 16s linear infinite;
+}
+
+@keyframes fall {
+	0% {
+		opacity: 0;
+	}
+	3% {
+		opacity: 0.9;
+	}
+
+	90% {
+		opacity: 0.9;
+	}
+	100% {
+		transform: translate(0, 97vh);
+		opacity: 0;
+	}
 }

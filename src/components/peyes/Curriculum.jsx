@@ -4,6 +4,7 @@ import './Curriculum.css'
 import Logo2 from '../../img/logo2.png'
 import { Chart as ChartJS, ArcElement, Tooltip} from 'chart.js';
 import {Doughnut} from 'react-chartjs-2';
+import Snow from '../../Snow'
 
 ChartJS.register(
   ArcElement, Tooltip
@@ -21,6 +22,7 @@ const Curriculum = () => {
 
   return (
     <div>
+      <Snow/>
       <div className='infoCurri'>
         <img src={Perfil} className='photo' alt="" />
         <p className='description'>Yeimy Juliana Cristancho Niño</p>

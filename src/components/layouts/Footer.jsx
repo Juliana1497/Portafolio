@@ -19,7 +19,9 @@ const Footer = () => {
       <a target="_blank" href="https://github.com/Juliana1497">
         <FaGithubSquare className='icon5'/>
       </a>
+      <a target="_blank" href="https://www.linkedin.com/in/yeimy-juliana-cristancho-ni%C3%B1o-8a0856234/">
         <FaLinkedin className='icon5'/>
+      </a>
         <IoMdMail className='icon5' onClick={() => changeState(!stateModal)}/>
         <div>
             <BsFillArrowUpCircleFill className='icon6' onClick={()=>scrollUp()}/>

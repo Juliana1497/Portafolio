@@ -7,13 +7,20 @@ import Logo2 from '../../img/logo2.png'
 import Carrousel from '../../CarrouselWeb'
 import CarrouselGame from '../../CarrouselGame'
 import { Progress } from 'reactstrap';
+import Logo1 from '../../img/logo1.png'
+import ParticlesConfig from '../../ParticlesConfig'
 
 
 const Home = () => {
   return (
+    <div>
+      <ParticlesConfig/>
     <div className='containerBody'>
         <div className='containerInfo'>
+          <div className='images'>
             <img src={Pixel} className='iconPixel' alt="" />
+            <img src={Logo1}  className='logo1'alt="" />
+          </div>
             <p className='name1'>Ψeimy Dev</p>
             <p className='name'>Junior Full-Stack Web Developer.</p>
             <p className='name'>I have been learning for a short time, but every day with more desire to learn and learning something new every day.</p>
@@ -68,7 +75,7 @@ const Home = () => {
           <img src={Logo2} className='logo' alt="" />
         </div>
     </div>
-    
+    </div>
   )
 }
 
