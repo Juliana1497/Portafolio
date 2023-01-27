@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Home.css'
 import Pixel from '../../img/pixel.png'
 import {FaCss3Alt, FaHtml5, FaReact} from 'react-icons/fa'
@@ -9,9 +9,15 @@ import CarrouselGame from '../../CarrouselGame'
 import { Progress } from 'reactstrap';
 import Logo1 from '../../img/logo1.png'
 import ParticlesConfig from '../../ParticlesConfig'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 const Home = () => {
+  useEffect(() =>{
+    AOS.init()
+  }, [])
+
   return (
     <div>
       <ParticlesConfig/>
@@ -34,6 +40,7 @@ const Home = () => {
               color="danger"
               value={70}
               className="progress"
+              data-aos="fade-right"
               />
             </div>
             <p className='name'>CSS</p>
@@ -43,6 +50,7 @@ const Home = () => {
               color="primary"
               value={70}
               className="progress"
+              data-aos="fade-right"
               />
             </div>
             <p className='name'>JavaScript</p>
@@ -52,6 +60,7 @@ const Home = () => {
               color="warning"
               value={60}
               className="progress"
+              data-aos="fade-right"
               />
             </div>
             <p className='name'>React</p>
@@ -61,6 +70,7 @@ const Home = () => {
               color="purple"
               value={70}
               className="progress"
+              data-aos="fade-right"
               />
             </div>
         </div>
