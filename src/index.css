@@ -3,3 +3,6 @@
   font-family: 'IBM Plex Mono', monospace;
   overflow-x: hidden;
 }
+:root{
+  --secondary-color: #f8f8f8;
+}
