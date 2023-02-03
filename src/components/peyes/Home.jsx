@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react'
 import './Home.css'
 import Pixel from '../../img/pixel.png'
-import {FaCss3Alt, FaHtml5, FaReact} from 'react-icons/fa'
+import {FaCss3Alt, FaHtml5, FaReact, FaNodeJs, FaGithubSquare} from 'react-icons/fa'
 import {IoLogoJavascript} from 'react-icons/io'
+import {GrMysql} from 'react-icons/gr'
+import {SiMongodb} from 'react-icons/si'
 import Logo2 from '../../img/logo2.png'
 import Carrousel from '../../CarrouselWeb'
 import CarrouselGame from '../../CarrouselGame'
@@ -29,7 +31,7 @@ const Home = () => {
           </div>
             <p className='name1'>Ψeimy Dev</p>
             <p className='name'>Diseñadora Web Full-Stack</p>
-            <p className='name'>Llevo poco tiempo aprendiendo, pero cada día con más ganas de aprender y deguir aprendiendo cada día algo nuevo.</p>
+            <p className='name'>Llevo poco tiempo aprendiendo, pero cada día con más ganas de aprender y de seguir aprendiendo cada día algo nuevo.</p>
         </div>
         <div id='knowledge'>
             <p className='sub'>CONOCIMIENTOS</p>
@@ -73,9 +75,49 @@ const Home = () => {
               data-aos="fade-right"
               />
             </div>
+            <p className='name'>MySQL</p>
+            <div className="languaje">
+              <GrMysql className='icon6'/>
+              <Progress
+              color="primary"
+              value={70}
+              className="progress"
+              data-aos="fade-right"
+              />
+            </div>
+            <p className='name'>MongoDB</p>
+            <div className="languaje">
+              <SiMongodb className='icon7'/>
+              <Progress
+              color="success"
+              value={75}
+              className="progress"
+              data-aos="fade-right"
+              />
+            </div>
+            <p className='name'>NodeJs</p>
+            <div className="languaje">
+              <FaNodeJs className='icon7'/>
+              <Progress
+              color="success"
+              value={75}
+              className="progress"
+              data-aos="fade-right"
+              />
+            </div>
+            <p className='name'>GitHub</p>
+            <div className="languaje">
+              <FaGithubSquare className='icon6'/>
+              <Progress
+              color="primary"
+              value={65}
+              className="progress"
+              data-aos="fade-right"
+              />
+            </div>
         </div>
         <div id='projects'>
-          <p className='sub'>PROJECTOS</p>
+          <p className='sub'>PROYECTOS</p>
           <p className='name'>Paginas web</p>
           <Carrousel/>
           <p className='name'>Juegos</p>

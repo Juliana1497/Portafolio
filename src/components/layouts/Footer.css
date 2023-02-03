@@ -12,7 +12,7 @@
     margin-top: 20px;
     color: black;
 }
-.icon6{
+.icon8{
     font-size: 50px;
     cursor: pointer;
     margin-top: 20px;
@@ -20,7 +20,7 @@
     transition: all 300ms ease;
     overflow: hidden;
 }
-.icon6:hover{
+.icon8:hover{
     transform: scale(1.05);
 }
 @media screen and (min-width:768px){

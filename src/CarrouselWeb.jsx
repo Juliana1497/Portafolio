@@ -15,12 +15,32 @@ const items = [
     link:'https://cire-3.vercel.app/inicio',
   },
   {
+    src: require('./img/web3.png'),
+    link: 'https://semillas-eight.vercel.app/#'
+  },
+  {
+    src: require('./img/web4.png'),
+    link: 'https://juliana1497.github.io/dashboard/'
+  },
+  {
+    src: require('./img/web5.png'),
+    link: 'https://juliana1497.github.io/SabujCha/'
+  },
+  {
+    src: require('./img/web6.png'),
+    link: 'https://todolist-tambo-flowers-front.vercel.app/'
+  },
+  {
     src: require('./img/web2.png'),
     link: 'https://juliana1497.github.io/Pagina-Tributo/'
   },
   {
-    src: require('./img/web3.png'),
-    link: 'https://semillas-eight.vercel.app/#'
+    src: require('./img/web7.png'),
+    link: 'https://juliana1497.github.io/ZShop/'
+  },
+  {
+    src: require('./img/web8.png'),
+    link: 'https://jlbejarano662.github.io/Deezer/'
   },
 ];
 

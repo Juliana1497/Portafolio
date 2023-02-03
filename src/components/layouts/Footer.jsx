@@ -24,7 +24,7 @@ const Footer = () => {
       </a>
         <IoMdMail className='icon5' onClick={() => changeState(!stateModal)}/>
         <div>
-            <BsFillArrowUpCircleFill className='icon6' onClick={()=>scrollUp()}/>
+            <BsFillArrowUpCircleFill className='icon8' onClick={()=>scrollUp()}/>
         </div>
     </div>
     <Modal state={stateModal} changeState={changeState}/>
