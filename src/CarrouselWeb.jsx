@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {FaGithubSquare} from 'react-icons/fa'
 import {
   Carousel,
   CarouselItem,
@@ -11,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const items = [
   {
     src: require('./img/web1.png'),
-    link:'https://cire-3.vercel.app/inicio'
+    link:'https://cire-3.vercel.app/inicio',
   },
   {
     src: require('./img/web2.png'),
@@ -20,7 +21,7 @@ const items = [
   {
     src: require('./img/web3.png'),
     link: 'https://semillas-eight.vercel.app/#'
-  }
+  },
 ];
 
 class Carrousel extends Component {

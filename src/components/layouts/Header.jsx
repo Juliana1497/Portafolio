@@ -14,13 +14,13 @@ const Header = () => {
       <div className="containerHeader">
         <div className="nav">
           <Link to="/">
-            <p>Home</p>
+            <p>Inicio</p>
           </Link>
           <a href="#knowledge">
-            <p>Knowledge</p>
+            <p>Conocimiento</p>
           </a>
           <a href="#projects">
-            <p>Projects</p>
+            <p>Projectos</p>
           </a>
           <Link to="/curriculum">
             <p>Curriculum</p>
@@ -28,7 +28,7 @@ const Header = () => {
         </div>
         <div className="contact">
           <p className="contactP" onClick={() => changeState(!stateModal)}>
-            -CONTAC ME-
+            -CONTÁCTAME-
           </p>
         </div>
         <Modal state={stateModal} changeState={changeState} />

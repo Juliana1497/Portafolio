@@ -28,11 +28,11 @@ const Home = () => {
             <img src={Logo1}  className='logo1'alt="" />
           </div>
             <p className='name1'>Ψeimy Dev</p>
-            <p className='name'>Junior Full-Stack Web Developer.</p>
-            <p className='name'>I have been learning for a short time, but every day with more desire to learn and learning something new every day.</p>
+            <p className='name'>Diseñadora Web Full-Stack</p>
+            <p className='name'>Llevo poco tiempo aprendiendo, pero cada día con más ganas de aprender y deguir aprendiendo cada día algo nuevo.</p>
         </div>
         <div id='knowledge'>
-            <p className='sub'>KNOWLEDGE</p>
+            <p className='sub'>CONOCIMIENTOS</p>
             <p className='name'>HTML</p>
             <div className="languaje">
               <FaHtml5 className='icon1'/>
@@ -75,10 +75,10 @@ const Home = () => {
             </div>
         </div>
         <div id='projects'>
-          <p className='sub'>PROJECTS</p>
-          <p className='name'>WebPages</p>
+          <p className='sub'>PROJECTOS</p>
+          <p className='name'>Paginas web</p>
           <Carrousel/>
-          <p className='name'>Games</p>
+          <p className='name'>Juegos</p>
           <CarrouselGame/>
         </div>
         <div className='containerLogo'>

@@ -18,23 +18,23 @@ const Modal = ({children,state,changeState}) => {
             <div className="Overlay">
                 <div className="containerModal">
                     <div className="headerModal">
-                        <h3>Contact</h3>
+                        <h3>Contacto</h3>
                         <AiFillCloseCircle onClick={()=> changeState(false)}/>
                         {children}
                     </div>
                     <form className="mail" onSubmit={sendEmail}>
-                        <label>Name:</label>
+                        <label>Nombre:</label>
                         <input type="text" name='userName'/>
                         <hr/>
 
-                        <label>Email:</label>
+                        <label>Correo:</label>
                         <input type="email" name='userEmail'/>
                         <hr/>
 
-                        <label>Message:</label>
+                        <label>Mensage:</label>
                         <textarea name="userMessage" id="" cols="30" rows="5"></textarea>
                         <hr/>
-                        <button>Send</button>
+                        <button>Enviar</button>
                     </form>
                 </div>
             </div>
