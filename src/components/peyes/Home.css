@@ -116,6 +116,7 @@
 .carrousel-1{
     background: linear-gradient(90deg,purple,blue, rgb(106, 106, 248));
     opacity: 0.7;
+    overflow: hidden;
 }
 .containerLogo{
     display: flex;
