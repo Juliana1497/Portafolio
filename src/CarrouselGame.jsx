@@ -14,21 +14,21 @@ const items = [
     link:'https://wheel-of-doom-git-master-yeimmibuenaventura.vercel.app/',
     captions: 'Click para ver repositorio en GitHub',
     github: 'https://github.com/YeimmiBuenaventura/WheelOfDoom',
-    caption: 'Realizado con: HTML, CSS, JavaScript',
+    caption: 'Tecnologías utilizadas: HTML, CSS, JavaScript',
   },
   {
     src: require('./img/game2.png'),
     link: 'https://juliana1497.github.io/tetris2/',
     captions: 'Click para ver repositorio en GitHub',
     github: 'https://github.com/Juliana1497/tetris2',
-    caption: 'Realizado con: HTML, CSS, JavaScript',
+    caption: 'Tecnologías utilizadas: HTML, CSS, JavaScript',
   },
   {
     src: require('./img/calculadora.png'),
     link: 'https://juliana1497.github.io/calculadora/',
     captions: 'Click para ver repositorio en GitHub',
     github: 'https://github.com/Juliana1497/calculadora',
-    caption: 'Realizado con: HTML, CSS, JavaScript',
+    caption: 'Tecnologías utilizadas: HTML, CSS, JavaScript',
   },
 ];
 
