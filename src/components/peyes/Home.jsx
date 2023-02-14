@@ -30,7 +30,7 @@ const Home = () => {
             <img src={Logo1}  className='logo1'alt="" />
           </div>
             <p className='name1'>Ψeimy Dev</p>
-            <p className='name'>Diseñadora Web Full-Stack</p>
+            <p className='name'>Desarrolladora Web Full-Stack</p>
             <p className='name'>Llevo poco tiempo aprendiendo, pero cada día con más ganas de aprender y de seguir aprendiendo cada día algo nuevo.</p>
         </div>
         <div id='knowledge'>
@@ -120,7 +120,7 @@ const Home = () => {
           <p className='sub'>PROYECTOS</p>
           <p className='name'>Paginas web</p>
           <Carrousel/>
-          <p className='name'>Juegos</p>
+          <p className='name'>Juegos y Otros</p>
           <CarrouselGame/>
         </div>
         <div className='containerLogo'>

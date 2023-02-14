@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import {FaGithubSquare} from 'react-icons/fa'
+
+
 import {
   Carousel,
   CarouselItem,
@@ -13,34 +14,58 @@ const items = [
   {
     src: require('./img/web1.png'),
     link:'https://cire-3.vercel.app/inicio',
+    captions: 'Click para ver repositorio en GitHub',
+    github: 'https://github.com/Juliana1497/cire-3',
+    caption: 'Realizado con: HTML, CSS, Javascript, ReactJS',
   },
   {
     src: require('./img/web3.png'),
-    link: 'https://semillas-eight.vercel.app/#'
+    link: 'https://semillas-eight.vercel.app/#',
+    captions: 'Click para ver repositorio en GitHub',
+    github: 'https://github.com/Juliana1497/semillas',
+    caption: 'Realizado con: HTML, CSS',
   },
   {
     src: require('./img/web4.png'),
-    link: 'https://juliana1497.github.io/dashboard/'
+    link: 'https://juliana1497.github.io/dashboard/',
+    captions: 'Click para ver repositorio en GitHub',
+    github: 'https://github.com/Juliana1497/dashboard',
+    caption: 'Realizado con: HTML, CSS, JavaScript, ReactJS',
   },
   {
     src: require('./img/web5.png'),
-    link: 'https://juliana1497.github.io/SabujCha/'
+    link: 'https://juliana1497.github.io/SabujCha/',
+    captions: 'Click para ver repositorio en GitHub',
+    github: 'https://github.com/Juliana1497/SabujCha',
+    caption: 'Realizado con: HTML, CSS',
   },
   {
     src: require('./img/web6.png'),
-    link: 'https://todolist-tambo-flowers-front.vercel.app/'
+    link: 'https://todolist-tambo-flowers-front.vercel.app/',
+    captions: 'Click para ver repositorio en GitHub',
+    github: 'https://github.com/Nisanech/todolist-tambo-flowers',
+    caption: 'Realizado con: HTML, CSS, JavaScript, React, MongoDB',
   },
   {
     src: require('./img/web2.png'),
-    link: 'https://juliana1497.github.io/Pagina-Tributo/'
+    link: 'https://juliana1497.github.io/Pagina-Tributo/',
+    captions: 'Click para ver repositorio en GitHub',
+    github: 'https://github.com/Juliana1497/Pagina-Tributo',
+    caption: 'Realizado con: HTML, CSS',
   },
   {
     src: require('./img/web7.png'),
-    link: 'https://juliana1497.github.io/ZShop/'
+    link: 'https://juliana1497.github.io/ZShop/',
+    captions: 'Click para ver repositorio en GitHub',
+    github: 'https://github.com/Juliana1497/ZShop',
+    caption: 'Realizado con: HTML, CSS',
   },
   {
     src: require('./img/web8.png'),
-    link: 'https://jlbejarano662.github.io/Deezer/'
+    link: 'https://jlbejarano662.github.io/Deezer/',
+    captions: 'Click para ver repositorio en GitHub',
+    github: 'https://github.com/Jlbejarano662/Deezer',
+    caption: 'Realizado con: HTML, CSS',
   },
 ];
 
@@ -91,7 +116,7 @@ class Carrousel extends Component {
           key={item.src}
         >
           <a target="_blank" href={item.link}><img src={item.src} alt={item.altText} className="carrousel"/></a>
-          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+          <a target="_blank" href={item.github}><CarouselCaption captionText={item.captions} captionHeader={item.caption} className="carrousel-1 shadow-lg p-3 mb-5 bg-body-tertiary rounded"/></a>
         </CarouselItem>
       );
     });

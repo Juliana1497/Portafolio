@@ -11,12 +11,25 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const items = [
   {
     src: require('./img/game1.png'),
-    link:'https://wheel-of-doom-git-master-yeimmibuenaventura.vercel.app/'
+    link:'https://wheel-of-doom-git-master-yeimmibuenaventura.vercel.app/',
+    captions: 'Click para ver repositorio en GitHub',
+    github: 'https://github.com/YeimmiBuenaventura/WheelOfDoom',
+    caption: 'Realizado con: HTML, CSS, JavaScript',
   },
   {
     src: require('./img/game2.png'),
-    link: 'https://juliana1497.github.io/tetris2/'
-  }
+    link: 'https://juliana1497.github.io/tetris2/',
+    captions: 'Click para ver repositorio en GitHub',
+    github: 'https://github.com/Juliana1497/tetris2',
+    caption: 'Realizado con: HTML, CSS, JavaScript',
+  },
+  {
+    src: require('./img/calculadora.png'),
+    link: 'https://juliana1497.github.io/calculadora/',
+    captions: 'Click para ver repositorio en GitHub',
+    github: 'https://github.com/Juliana1497/calculadora',
+    caption: 'Realizado con: HTML, CSS, JavaScript',
+  },
 ];
 
 class CarrouselGame extends Component {
@@ -66,7 +79,7 @@ class CarrouselGame extends Component {
           key={item.src}
         >
           <a target="_blank" href={item.link}><img src={item.src} alt={item.altText} className="carrousel"/></a>
-          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+          <a target="_blank" href={item.github}><CarouselCaption captionText={item.captions} captionHeader={item.caption} className="carrousel-1 shadow p-3 mb-5 bg-body-tertiary rounded"/></a>
         </CarouselItem>
       );
     });

@@ -26,7 +26,7 @@ const Curriculum = () => {
       <div className='infoCurri'>
         <img src={Perfil} className='photo' alt="" />
         <p className='description'>Yeimy Juliana Cristancho Niño</p>
-        <p className='description'>Diseñadora Web Full-Stack</p>
+        <p className='description'>Desarrolladora Web Full-Stack</p>
         <p className='description'>Desarrolladora Web Full-Stack (Fronted y Backend), con conocimientos en lenguajes de programación (HTML,CSS, JavaScript, React) y Excel. He trabajado en proyectos creando webs dinamicas e interactivas. Interesada en poner en práctica, aumentar mis conocimientos y habilidades en programación web Frontend y Backend. Caracterizada por ser una persona autodidacta, comprometida, de fácil adaptabilidad.</p>
       </div>
       <div>
