@@ -1,13 +1,8 @@
 import React, { useState } from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
-import Modal from "../peyes/Modal";
 
 const Header = () => {
-  const [stateModal, changeState] = useState(false);
-
-  //change nav color when scrolling
-  
 
   return (
     <div >
@@ -26,12 +21,6 @@ const Header = () => {
             <p>Curriculum</p>
           </Link>
         </div>
-        <div className="contact">
-          <p className="contactP" onClick={() => changeState(!stateModal)}>
-            -CONTÁCTAME-
-          </p>
-        </div>
-        <Modal state={stateModal} changeState={changeState} />
       </div>
     </div>
   );

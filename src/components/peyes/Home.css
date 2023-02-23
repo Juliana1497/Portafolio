@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 60px 0px 10px 0px;
+    margin: 20vw 0vw 10vw 0vw;
 }
 .name1{
     color: #889EDA;
@@ -14,7 +14,7 @@
 }
 .name{
     color: white;
-    margin: 10px 5px;
+    margin: 5vw 5vw;
     font-size: 12px;
 }
 .images{
@@ -126,7 +126,7 @@ h3{
     margin: 30px;
 }
 .logo{
-    width: 150px;
+    width: 80px;
 }
 @media screen and (min-width:768px)and (max-width:1023px){
     .containerInfo{
@@ -137,7 +137,7 @@ h3{
         font-size: 30px;
     }
     .name{
-        margin: 20px 15px;
+        margin: 5vw 5vw;
         font-size: 20px;
     }
     .images{
@@ -179,7 +179,7 @@ h3{
         margin: 50px;
     }
     .logo{
-        width: 250px;
+        width: 130px;
     }
 }
 @media screen and (min-width:1024px){
@@ -191,7 +191,7 @@ h3{
         font-size: 40px;
     }
     .name{
-        margin: 30px 25px;
+        margin: 5vw 5vw;
         font-size: 30px;
     }
     .images{
@@ -249,6 +249,6 @@ h3{
         margin: 70px;
     }
     .logo{
-        width: 350px;
+        width: 200px;
     }
 }

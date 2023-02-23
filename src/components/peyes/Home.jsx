@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Home.css'
 import Pixel from '../../img/pixel.png'
 import {FaCss3Alt, FaHtml5, FaReact, FaNodeJs, FaGithubSquare} from 'react-icons/fa'
@@ -13,9 +13,11 @@ import Logo1 from '../../img/logo1.png'
 import ParticlesConfig from '../../ParticlesConfig'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Modal from "../peyes/Modal";
 
 
 const Home = () => {
+  const [stateModal, changeState] = useState(false);
   useEffect(() =>{
     AOS.init()
   }, [])
@@ -24,6 +26,12 @@ const Home = () => {
     <div>
       <ParticlesConfig/>
     <div className='containerBody'>
+    <div className="contact">
+          <p className="contactP" onClick={() => changeState(!stateModal)}>
+            -CONTÁCTAME-
+          </p>
+        </div>
+        <Modal state={stateModal} changeState={changeState} />
         <div className='containerInfo'>
           <div className='images'>
             <img src={Pixel} className='iconPixel' alt="" />
