@@ -31,7 +31,7 @@ const Modal = ({children,state,changeState}) => {
                         <input type="email" name='userEmail'/>
                         <hr/>
 
-                        <label>Mensage:</label>
+                        <label>Mensaje:</label>
                         <textarea name="userMessage" id="" cols="30" rows="5"></textarea>
                         <hr/>
                         <button>Enviar</button>
