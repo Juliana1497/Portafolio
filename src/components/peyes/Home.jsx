@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './Home.css'
 import Pixel from '../../img/pixel.png'
-import {FaCss3Alt, FaHtml5, FaReact, FaNodeJs, FaGithubSquare} from 'react-icons/fa'
+import {FaCss3Alt, FaHtml5, FaReact, FaNodeJs, FaGithubSquare, FaAngular} from 'react-icons/fa'
 import {IoLogoJavascript} from 'react-icons/io'
 import {GrMysql} from 'react-icons/gr'
 import {SiMongodb} from 'react-icons/si'
@@ -109,6 +109,16 @@ const Home = () => {
               <Progress
               color="success"
               value={75}
+              className="progress"
+              data-aos="fade-right"
+              />
+            </div>
+            <p className='name'>Angular</p>
+            <div className="languaje">
+              <FaAngular className='icon9'/>
+              <Progress
+              color="danger"
+              value={60}
               className="progress"
               data-aos="fade-right"
               />

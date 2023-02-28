@@ -33,6 +33,20 @@ const items = [
     caption: 'Tecnologías utilizadas: HTML, CSS, JavaScript, ReactJS',
   },
   {
+    src: require('./img/web9.png'),
+    link: 'https://crud-angular-lake.vercel.app/',
+    captions: 'Click para ver repositorio en GitHub',
+    github: 'https://github.com/Juliana1497/crud-angular',
+    caption: 'Tecnologías utilizadas: HTML, CSS, TypeScript, Angular',
+  },
+  {
+    src: require('./img/web10.png'),
+    link: 'https://contactos-1.vercel.app/',
+    captions: 'Click para ver repositorio en GitHub',
+    github: 'https://github.com/Juliana1497/contactos',
+    caption: 'Tecnologías utilizadas: HTML, CSS, JavaScript, ReactJS',
+  },
+  {
     src: require('./img/web5.png'),
     link: 'https://juliana1497.github.io/SabujCha/',
     captions: 'Click para ver repositorio en GitHub',
