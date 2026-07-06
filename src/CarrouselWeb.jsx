@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const items = [
   {
-    src: require('./img/re.jpg'),
+    src: require('./img/REX.PNG'),
     link:'https://redexpertos.com',
     captions: 'Click para ver repositorio en GitHub',
     github: '',
