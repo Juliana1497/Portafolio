@@ -136,8 +136,8 @@ class Carrousel extends Component {
           onExited={this.onExited}
           key={item.src}
         >
-          <a target="_blank" href={item.link}><img src={item.src} alt={item.altText} className="carrousel"/></a>
-          <a target="_blank" href={item.github}><CarouselCaption captionText={item.captions} captionHeader={item.caption} className="carrousel-1 shadow-lg p-3 mb-5 bg-body-tertiary rounded"/></a>
+          <a target="_blank" rel="noopener noreferrer" href={item.link}><img src={item.src} alt={item.altText} className="carrousel"/></a>
+          <a target="_blank" rel="noopener noreferrer" href={item.github}><CarouselCaption captionText={item.captions} captionHeader={item.caption} className="carrousel-1 shadow-lg p-3 mb-5 bg-body-tertiary rounded"/></a>
         </CarouselItem>
       );
     });
