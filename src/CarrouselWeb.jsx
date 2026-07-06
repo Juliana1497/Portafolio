@@ -12,6 +12,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const items = [
   {
+    src: require('./img/re.jpg'),
+    link:'https://redexpertos.com',
+    captions: 'Click para ver repositorio en GitHub',
+    github: '',
+    caption: 'Tecnologías utilizadas: WordPress, PHP, phpMyAdmin',
+  },
+  {
     src: require('./img/web1.png'),
     link:'https://cire-3.vercel.app/inicio',
     captions: 'Click para ver repositorio en GitHub',
